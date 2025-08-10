@@ -1,0 +1,15 @@
+# 1. Khởi tạo Git trong thư mục
+git init
+
+# 2. Thêm toàn bộ file vào git
+git add .
+
+# 3. Commit lần đầu
+git commit -m "First commit"
+
+# 4. Liên kết với repo trên GitHub (dùng HTTPS hoặc SSH)
+git remote add origin https://github.com/<username>/<repo>.git
+
+# 5. Đẩy code lên GitHub
+git branch -M main
+git push -u origin main
